@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/FillParent">
+
+	<ImageView android:id="@+id/iv01" style="@style/wrap"
+		android:layout_centerHorizontal="true" />
+
+	<ScrollView
+	    android:id="@+id/svAvailableTypes"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200px"
+	    android:layout_below="@+id/iv01" >
+
+		<LinearLayout android:orientation="vertical" style="@style/FillParent"
+			android:id="@+id/llAvailableTypes">
+		</LinearLayout>
+
+	</ScrollView>
+
+	<Button android:id="@+id/btnOk" android:layout_below="@id/svAvailableTypes"
+		style="@style/wrap" android:layout_centerHorizontal="true"
+		android:text="OK" />
+</RelativeLayout>

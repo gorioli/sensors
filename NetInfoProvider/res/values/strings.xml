@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Net Info Provider</string>
+	<string name="latitude">Latitude</string>
+	<string name="longitude">Longitude</string>
+	<string name="editServerPort">5000</string>
+	<string name="txtServerPort">Server Port</string>
+	<string name="txtInetAddress">Inet Address</string>
+	<string name="editInetAddress">192.168.1.111</string>
+	<string name="btnStopUDPSend">Stop UDP Sending</string>
+	<string name="btnStartUDPSend">Start Udp Sending</string>
+	<string name="tTimerUpdatePeriod">Update Time</string>
+	<string name="eTimerUpdatePeriod">1000</string>
+</resources>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- hi hello how are you -->
+
+    <TextView
+        android:id="@+id/tvMyIp"
+        style="@style/wrap"
+        android:text="My ip:" />
+
+    <!-- hello here ia m -->
+
+    <ScrollView
+        android:id="@+id/svDebug"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvDebug"
+                    style="@style/CodeFont"
+                    android:text="debug info:" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:paddingRight="10dp"
+                    android:text="@string/latitude" />
+
+                <TextView
+                    android:id="@+id/latitude"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:paddingRight="10dp"
+                    android:text="@string/longitude" />
+
+                <TextView
+                    android:id="@+id/longitude"
+                    style="@style/wrap"
+                    android:text="@string/longitude" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Title"
+                android:text="ACCELEROMETER" />
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="X: " />
+
+                <TextView
+                    android:id="@+id/tvX"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Y: " />
+
+                <TextView
+                    android:id="@+id/tvY"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Z: " />
+
+                <TextView
+                    android:id="@+id/tvZ"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Title"
+                android:text="MAGNETIC FIELD" />
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="M1: " />
+
+                <TextView
+                    android:id="@+id/tvM1"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="M2: " />
+
+                <TextView
+                    android:id="@+id/tvM2"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="M3: " />
+
+                <TextView
+                    android:id="@+id/tvM3"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Title"
+                android:text="ORIENTATION" />
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Or1: " />
+
+                <TextView
+                    android:id="@+id/tvOr1"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Or2: " />
+
+                <TextView
+                    android:id="@+id/tvOr2"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Or3: " />
+
+                <TextView
+                    android:id="@+id/tvOr3"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Title"
+                android:text="PROXIMITY" />
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Pr1: " />
+
+                <TextView
+                    android:id="@+id/tvPr1"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Pr2: " />
+
+                <TextView
+                    android:id="@+id/tvPr2"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="Pr3: " />
+
+                <TextView
+                    android:id="@+id/tvPr3"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Title"
+                android:text="GYROSCOPE" />
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="G1: " />
+
+                <TextView
+                    android:id="@+id/tvG1"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="G2: " />
+
+                <TextView
+                    android:id="@+id/tvG2"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="G3: " />
+
+                <TextView
+                    android:id="@+id/tvG3"
+                    style="@style/wrap" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Title"
+                android:text="TEMPERATURE" />
+
+            <LinearLayout style="@style/Linear" >
+
+                <TextView
+                    style="@style/wrap"
+                    android:text="T: " />
+
+                <TextView
+                    android:id="@+id/tvT"
+                    style="@style/wrap" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="IpAddresses">
+        <item>192.168.1.103</item>
+        <item>192.168.1.111</item>
+        <item>192.168.1.121</item>
+    </string-array>
+
+    <item name="resending_period_ms" type="integer">4000</item>
+    <item name="start_in_ms" type="integer">120</item>
+    <item name="is_absolute_time" type="bool">true</item>
+
+    <color name="pink">#550000</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Netinfo Consumer</string>
+
+	<string name="item_update">Update</string>
+	<string name="item_delete">Delete</string>
+	<string name="item_add">Add</string>
+
+	<string name="provider_is_not_availble">The provider for this host is not availble yet
+	</string>
+	<string name="address_in_use">This host ip is already in use</string>
+	<string name="IP_is_local">This host address is your local IP</string>
+	<string name="illegal_ip">The IP address _ is illegal</string>
+
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	
+
+
+</resources>

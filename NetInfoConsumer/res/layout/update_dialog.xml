@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:orientation="horizontal" style="@style/FillParent"
+	android:padding="10dp">
+
+	<EditText android:id="@+id/etIpUpdate" style="@style/wrap"
+		android:textSize="25sp" android:textStyle="bold" android:maxLines="1"
+		android:inputType="number|textNoSuggestions" android:hint="111.111.111.111" />
+
+	<Button android:id="@+id/btnDialogOk" style="@style/dialog_button"
+		android:layout_below="@id/etIpUpdate" android:text="@string/ok" />
+
+	<Button android:id="@+id/btnDialogCancel" style="@style/dialog_button"
+		android:layout_toRightOf="@id/btnDialogOk" android:layout_below="@id/etIpUpdate"
+		android:text="@string/cancel" />
+
+</RelativeLayout>
